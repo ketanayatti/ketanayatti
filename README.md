@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Ketan+Ayatti;DevOps+Engineer+%7C+Cloud+%7C+Platform+Engineering;Automating+Infrastructure+%7C+Building+Reliable+Systems;Designing+Systems+That+Survive+Failure" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Ketan+Ayatti;DevOps+Engineer+Intern+%7C+Cloud+%7C+Automation;Building+Reliable+Infrastructure+Systems;Automating+Deployments+%7C+Designing+Resilient+Systems" />
 
 <br/>
 
@@ -12,148 +12,189 @@
 
 # ⚡ DevOps Control Panel
 
-```bash
-> role: DevOps Engineer Intern
-> company: IonIdea
-> focus: Automation | Reliability | Cloud Infrastructure
-> mindset: "Assume Failure. Automate Recovery."
-```
+    role: DevOps Engineer Intern
+    company: Ionidea
+    focus: CI/CD | Infrastructure Automation | Linux Servers
+    mindset: "Automate Everything That Can Fail"
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-I’m **Ketan Ayatti**, a DevOps Engineer Intern passionate about building **production-grade infrastructure** rather than just applications.
+I’m **Ketan Ayatti**, a **BCA Final Semester Student** and **DevOps Engineer Intern at Ionidea** focused on building and understanding **modern infrastructure systems**.
 
-My curiosity lies in answering:
+Instead of only building applications, I enjoy exploring the **engineering behind reliable systems**.
 
-* What happens when deployments fail?
-* How systems recover automatically?
-* How infrastructure scales securely?
-* How downtime becomes invisible?
+Things I like working on:
 
-I build systems that are:
+• CI/CD pipeline automation  
+• Linux server infrastructure  
+• Containerized deployments  
+• Cloud deployment workflows  
+• Reliable system architecture  
 
-✅ Containerized
-✅ Automated
-✅ Secure
-✅ Recoverable
-✅ Cloud-Ready
+My goal is to design systems that are:
 
----
-
-## 🧭 Engineering Journey
-
-```mermaid
-timeline
-    title DevOps Journey
-    Development Foundations : MERN / Backend
-    Containerization : Docker Adoption
-    Cloud Deployments : AWS Infrastructure
-    Automation : CI/CD Pipelines
-    Present : DevOps Internship @ IonIdea
-    Next : Kubernetes & Platform Engineering
-```
+✅ Automated  
+✅ Containerized  
+✅ Scalable  
+✅ Recoverable  
+✅ Production Ready  
 
 ---
 
-## 🛠️ Tech Stack Radar
+# 🧭 DevOps Engineering Journey
+
+    Development Foundations → Backend & Web Development
+    Containerization → Docker Adoption
+    Infrastructure → Linux Server Deployments
+    Automation → CI/CD Pipeline Implementation
+    Present → DevOps Internship @ Ionidea
+    Next → Kubernetes & Platform Engineering
+
+---
+
+# 🛠️ Technology Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,docker,terraform,linux,nginx,githubactions,bash,git,python,nodejs"/>
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,jenkins,githubactions,git,bash,nodejs,nginx"/>
 
 </div>
 
 ---
 
-# 🏗️ DevOps Architecture Mindset
+# 🏗️ DevOps System Architecture Mindset
 
-<div align="center">
-
-```
-Developer Push
-      │
-      ▼
- CI/CD Pipeline
-      │
-      ▼
- Container Build
-      │
-      ▼
- Cloud Infrastructure
-      │
-      ▼
- Load Balancer
-      │
-      ▼
- Self-Healing Services
-```
-
-</div>
+    Developer Push Code
+            │
+            ▼
+         GitHub
+            │
+            ▼
+       CI/CD Pipeline
+            │
+            ▼
+       Docker Image Build
+            │
+            ▼
+     Container Registry
+            │
+            ▼
+     Production Server
+            │
+            ▼
+     Running Containers
 
 ---
 
-# 🚀 Flagship DevOps Projects (2026)
+# 🚀 DevOps Projects
+
+All my DevOps projects are documented inside my **DevOps Engineering Portfolio Repository**.
+
+### 📂 DevOps Portfolio
+Central repository containing project documentation, architecture explanations, and deployment workflows.
+
+Portfolio Repository  
+https://github.com/ketanayatti/devops-engineering-portfolio
 
 ---
 
-## 🤖 Autonomous Self-Healing Deployment Platform
+## 🔒 Communiatec
 
-⚙️ Zero downtime deployments
-🔁 Automatic rollback engine
-📊 Health-check driven recovery
+DevOps-Driven Full Stack Communication Platform demonstrating automated CI/CD deployments.
 
-**Concepts**
+Repository  
+https://github.com/ketanayatti/communiatec-devops-platform
 
-* Blue-Green Deployment
-* Failure Detection
-* Auto Recovery Logic
-* Infrastructure Automation
+Key Focus
 
----
-
-## 🛡️ DevSecOps Hardening Lab
-
-Simulating real-world attacks to design secure infrastructure.
-
-Includes:
-
-* Container exploitation lab
-* Image hardening
-* Runtime defense testing
-* Security misconfiguration analysis
+• Jenkins CI/CD pipeline  
+• Docker containerized deployment  
+• GitHub source integration  
+• Docker Hub container registry  
+• Linux production server deployment  
 
 ---
 
-## ⚙️ Lightweight Platform Engineering Mini-PaaS
+## 🤖 AI Mock Interview Platform
 
-Internal developer platform enabling:
+AI application deployed using an automated DevOps pipeline.
 
-✅ One-command deployments
-✅ Service routing
-✅ Container lifecycle automation
-✅ Internal hosting platform
+Repository  
+https://github.com/ketanayatti/ai-mock-interview
 
----
+Key Focus
 
-# 🌐 Production Deployments
-
-### 🔒 Communiatec
-
-Cloud-native collaboration system deployed using AWS + Docker.
-
-### 💬 Chatzy
-
-Containerized real-time chat platform with production configuration.
+• Multi-branch CI/CD pipeline  
+• Docker containerization  
+• Docker Compose orchestration  
+• Apache web server configuration  
+• MongoDB container database  
+• Automated staging & production deployments  
 
 ---
 
-# 📊 Engineering Metrics
+# 🧪 Upcoming DevOps Engineering Projects
+
+### ⚙️ Autonomous Self-Healing Deployment Platform
+
+Designing a deployment system capable of automatically detecting failures and restoring services.
+
+Focus Areas
+
+• Health-check based recovery  
+• Zero-downtime deployments  
+• Automated rollback mechanisms  
+• Infrastructure resilience  
+
+---
+
+### 🛡️ DevSecOps Hardening Lab
+
+A security testing environment for exploring infrastructure vulnerabilities and defense strategies.
+
+Focus Areas
+
+• Container security testing  
+• Vulnerability analysis  
+• Security misconfiguration detection  
+• DevSecOps pipeline integration  
+
+---
+
+### ⚙️ Lightweight Platform Engineering Mini-PaaS
+
+An internal deployment platform for simplifying application deployment workflows.
+
+Focus Areas
+
+• Internal developer platform  
+• Container lifecycle automation  
+• Service routing  
+• Linux-based hosting environment  
+
+---
+
+# 🏢 Internship Experience
+
+DevOps Engineer Intern — **Ionidea**
+
+Key Experience
+
+• Completed an **end-to-end application deployment on a Linux-based server**  
+• Worked with CI/CD automation workflows  
+• Practiced infrastructure configuration and deployment processes  
+
+---
+
+# 📊 GitHub Engineering Metrics
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=ketanayatti&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ketanayatti&theme=tokyonight&hide_border=true"/>
 
@@ -161,37 +202,36 @@ Containerized real-time chat platform with production configuration.
 
 ---
 
-# 📈 Learning & Upgrade Tracker
+# 🧩 Engineering Principles
 
-| Area               | Status             |
-| ------------------ | ------------------ |
-| Terraform          | ✅ Active           |
-| AWS Infrastructure | ✅ Active           |
-| Docker             | ✅ Production Usage |
-| Kubernetes         | 🔄 Learning        |
-| Observability      | ⏳ Upcoming         |
-| DevSecOps          | 🔄 Active          |
+    automation: mandatory
+    manual_work: minimized
+    security: considered
+    downtime: minimized
+    monitoring: important
+    infrastructure: reproducible
 
 ---
 
-# 🧩 Engineering Principles
+# 🌐 Connect With Me
 
-```yaml
-automation: mandatory
-manual_work: minimized
-security: default
-downtime: unacceptable
-monitoring: required
-infrastructure: version-controlled
-```
+GitHub  
+https://github.com/ketanayatti
+
+LinkedIn  
+https://www.linkedin.com/in/ketanayatti/
+
+Portfolio Website  
+https://ketanayatti.netlify.app/
 
 ---
 
 <div align="center">
 
-### ⚡ Philosophy
+### ⚡ Engineering Philosophy
 
-"Great engineers build systems that continue working when they are asleep."
+"Great engineers don't build systems that never fail —  
+they build systems that recover automatically."
 
 </div>
 
