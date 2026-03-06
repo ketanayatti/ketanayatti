@@ -90,19 +90,35 @@ My goal is to design systems that are:
 
 # 🚀 DevOps Projects
 
-All my DevOps projects are documented inside my **DevOps Engineering Portfolio Repository**.
+Below are some of the systems I have built while exploring **DevOps, infrastructure automation, and reliable deployment engineering**.
 
-### 📂 DevOps Portfolio
-Central repository containing project documentation, architecture explanations, and deployment workflows.
+---
 
-Portfolio Repository  
-https://github.com/ketanayatti/devops-engineering-portfolio
+## ⚙️ Autonomous Self-Healing Deployment Platform
+
+Production-style deployment platform that performs **zero-downtime releases using a Blue-Green deployment strategy with automated rollback and health monitoring**.
+
+Repository  
+https://github.com/ketanayatti/Autonomous-Self-Healing-Deployment-Platform
+
+Key Focus
+
+• Blue-Green zero downtime deployment strategy  
+• Automated health-check validation system  
+• Self-healing rollback mechanism  
+• NGINX reverse proxy traffic switching  
+• Docker-based container deployments  
+• Linux automation scripts for infrastructure control  
+
+Engineering Goal
+
+Design a **resilient deployment platform capable of detecting application failures and automatically restoring service stability**.
 
 ---
 
 ## 🔒 Communiatec
 
-DevOps-Driven Full Stack Communication Platform demonstrating automated CI/CD deployments.
+DevOps-Driven Full Stack Communication Platform demonstrating **automated CI/CD deployments and containerized infrastructure**.
 
 Repository  
 https://github.com/ketanayatti/communiatec-devops-platform
@@ -119,7 +135,7 @@ Key Focus
 
 ## 🤖 AI Mock Interview Platform
 
-AI application deployed using an automated DevOps pipeline.
+AI application deployed using a **multi-environment DevOps pipeline with automated build and deployment workflows**.
 
 Repository  
 https://github.com/ketanayatti/ai-mock-interview
@@ -135,46 +151,12 @@ Key Focus
 
 ---
 
-# 🧪 Upcoming DevOps Engineering Projects
+## 📂 DevOps Engineering Portfolio
 
-### ⚙️ Autonomous Self-Healing Deployment Platform
+Central repository documenting **DevOps experiments, architecture explanations, infrastructure designs, and deployment workflows**.
 
-Designing a deployment system capable of automatically detecting failures and restoring services.
-
-Focus Areas
-
-• Health-check based recovery  
-• Zero-downtime deployments  
-• Automated rollback mechanisms  
-• Infrastructure resilience  
-
----
-
-### 🛡️ DevSecOps Hardening Lab
-
-A security testing environment for exploring infrastructure vulnerabilities and defense strategies.
-
-Focus Areas
-
-• Container security testing  
-• Vulnerability analysis  
-• Security misconfiguration detection  
-• DevSecOps pipeline integration  
-
----
-
-### ⚙️ Lightweight Platform Engineering Mini-PaaS
-
-An internal deployment platform for simplifying application deployment workflows.
-
-Focus Areas
-
-• Internal developer platform  
-• Container lifecycle automation  
-• Service routing  
-• Linux-based hosting environment  
-
----
+Repository  
+https://github.com/ketanayatti/devops-engineering-portfolio
 
 # 🏢 Internship Experience
 
