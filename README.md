@@ -165,14 +165,6 @@ A production-style deployment platform built around **zero-downtime Blue-Green d
 
 ---
 
-### 📂 DevOps Engineering Portfolio
-
-Central repository documenting **DevOps experiments, architecture explanations, infrastructure designs, and deployment workflows**.
-
-**Repository:** https://github.com/ketanayatti/devops-engineering-portfolio
-
----
-
 ## 🏗️ How I Think About Shipping
 
 ```
