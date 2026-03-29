@@ -1,162 +1,180 @@
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   $ whoami                                                    ║
-║   > Ketan Ayatti                                              ║
-║                                                               ║
-║   $ cat mission.txt                                           ║
-║   > Make deployments so boring, nobody talks about them.      ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-<br/>
-
-I'm a **DevOps Engineer** obsessed with one thing:  
-**systems that fix themselves before anyone notices they broke.**
-
-Not "I know Docker." Not "I've used Jenkins."  
-I mean — I built a deployment platform that detects failure, reroutes traffic,  
-and rolls back to stable — with zero human involvement.  
-At 3am. Without waking anyone up.
-
-That's the bar I hold myself to.
-
----
-
-## What I've Actually Built
-
-> Not tutorial projects. Not course assignments.  
-> Real problems I found, got annoyed by, and built solutions for.
-
-<br/>
-
-**① An LLM running on $0/month** &nbsp;·&nbsp; [↗ repo](https://github.com/ketanayatti/Self-Hosted-AIOps-Agent-on-AWS)
-
-Everyone's paying OpenAI. I got curious — *what's the minimum viable self-hosted AI agent?*  
-Ran TinyLlama on a t2.micro. 1GB RAM. Had to fake an extra 2GB with swap.  
-Exposed it via FastAPI. Live CPU/memory monitoring. Shell execution. Health checks.  
-Total external AI cost: **$0**.
-
-```
-EC2 t2.micro (1GB RAM)
-├── llama.cpp → TinyLlama 1.1B (quantized)
-├── 2GB swap  → stable inference within memory limits
-├── FastAPI   → /metrics /query /exec /health
-└── systemd   → survives reboots, production-ready
-```
-
-<br/>
-
-**② A deployment platform that argues back** &nbsp;·&nbsp; [↗ repo](https://github.com/ketanayatti/Autonomous-Self-Healing-Deployment-Platform)
-
-Blue-green deployment isn't new. But most implementations still need  
-a human to say "okay, switch." Mine doesn't.
-
-Health checks pass → NGINX flips to green. Automatically.  
-Health checks fail → stays on blue. Rolls back. Sends no pages at 3am.
-
-```
-push code
-    │
-    ▼
-green container spins up
-    │
-    ├─ health check PASSES → nginx switches → blue retired ✓
-    │
-    └─ health check FAILS  → nginx stays   → green killed ✗
-                                              no downtime.
-                                              no humans paged.
-```
-
-<br/>
-
-**③ A full platform with everything wired together** &nbsp;·&nbsp; [↗ repo](https://github.com/ketanayatti/communiatec-devops-platform)
-
-Real-time messaging. Collaborative code editor. Secure file vault. Admin dashboard.  
-Built the whole thing — then built the deployment layer on top of it.  
-Jenkins pipeline. Docker. NGINX on Linux. One push ships everything.
-
-<br/>
-
-**④ AI interviews that actually adapt** &nbsp;·&nbsp; [↗ repo](https://github.com/ketanayatti/ai-mock-interview)
-
-Upload your resume → platform reads it → generates role-specific questions →  
-runs your answers through Gemini + OpenAI + Cohere → scores you.  
-Branch-aware pipeline: dev branch → staging, main → production. Automatically.
-
----
-
-## The Internship (What I Do at IonIdea)
-
-I joined as an intern. I've been running infrastructure.
-
-- Hardened Linux servers from scratch — SSH key-only, UFW rules, role-based access.  
-  Eliminated password-based login across all dev instances.  
-  *(It's 2026. Passwords are a vulnerability.)*
-- Built a Jenkins pipeline that took an 8-command manual deploy  
-  and turned it into a single git push.
-- Containerized a full-stack app with Docker Compose —  
-  "works on my machine" became "works everywhere, always."
-- Automated every database backup. Zero manual effort. Scheduled recovery points.  
-  The kind of thing you only miss when it's gone.
-
----
-
-## Stack (what I actually reach for, not what looks good in a list)
-
-```
-When I need to automate          →  Jenkins, GitHub Actions, Bash
-When I need to containerize      →  Docker, Docker Compose
-When I need a server             →  Linux (Ubuntu), AWS EC2
-When I need traffic routing      →  NGINX, Apache
-When I need observability        →  Docker logs, Apache logs, custom health endpoints
-When I need to write logic       →  Python, Node.js
-Currently learning               →  Kubernetes, Terraform
-Next cert on the wall            →  AWS Solutions Architect Associate
-```
-
----
-
-## Certifications
-
-```
-✓  Oracle Cloud Infrastructure 2025 AI Foundations Associate
-```
-
----
-
-## GitHub Activity
-
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ketanayatti&theme=tokyonight&hide_border=true&background=0D1117&ring=00C2FF&fire=00C2FF&currStreakLabel=00C2FF"/>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  > whoami                                                        ║
+║                                                                  ║
+║    Ketan Ayatti — Software Engineer                              ║
+║    Backend · Cloud Infrastructure · Systems that self-heal       ║
+║                                                                  ║
+║  > cat philosophy.txt                                            ║
+║    "If it needs constant human attention, it isn't finished."    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ketanayatti/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://ketanayatti.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kethanayatti333@gmail.com)
+[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Work-22c55e?style=for-the-badge)](mailto:kethanayatti333@gmail.com)
+
 </div>
 
 ---
 
-## One Thing I Believe
+## `$ cat about.txt`
 
-Most people treat reliability as something you add at the end.  
-A monitoring alert here. A restart policy there.
+Most engineers stop when the code runs.
 
-I think reliability is an architecture decision you make on day one.  
-Health checks aren't afterthoughts. Rollback isn't a plan B.  
-They're the system.
+I care about what comes **after** — how it deploys, how it survives failure, and how little human effort it needs to keep running.
 
-*"The goal isn't uptime. The goal is a system that doesn't need you to maintain its uptime."*
+My focus is on **backend systems, cloud infrastructure, and operational reliability** — the unglamorous layer where production actually lives.
 
 ---
 
-## If You Want to Talk
+## `$ ls ./projects`
 
-I'm actively looking for full-time **DevOps / SRE / Cloud Infrastructure** roles.  
-Bengaluru, Pune, Hyderabad — or remote.
+### ⟶ [Self-Hosted AIOps Agent on AWS](https://github.com/ketanayatti/Self-Hosted-AIOps-Agent-on-AWS)
 
-&nbsp;[LinkedIn](https://www.linkedin.com/in/ketanayatti/) &nbsp;·&nbsp; [Portfolio](https://ketanayatti.netlify.app/) &nbsp;·&nbsp; kethanayatti333@gmail.com
+> *A local AI agent that monitors and acts — without phoning home.*
 
-<br/>
+Built a lightweight autonomous system on a constrained EC2 instance that:
+- Monitors CPU and memory metrics in real time
+- Executes controlled system commands via API
+- Runs a **local LLM (TinyLlama / llama.cpp)** — no external API calls, no data leaving the machine
 
 ```
-$ status
-> open to work. respond within 24hrs. let's build something reliable.
+EC2 (low resource)
+ ├── FastAPI backend
+ ├── llama.cpp  ← local inference
+ ├── system tools
+ └── /monitor  /execute  /chat  endpoints
 ```
+
+`FastAPI` `llama.cpp` `TinyLlama` `Python` `AWS EC2` `Linux`
+
+---
+
+### ⟶ [Autonomous Self-Healing Deployment Platform](https://github.com/ketanayatti/Autonomous-Self-Healing-Deployment-Platform)
+
+> *Deployments that watch themselves — and roll back when something breaks.*
+
+No one should be paged at 2 AM because a deploy went wrong. This system handles it:
+
+```
+git push
+    │
+    ▼
+ [Green] starts
+    │
+    ├── health check PASS ──▶ NGINX routes traffic → live
+    └── health check FAIL ──▶ auto rollback → old version restored
+```
+
+Zero manual intervention. Zero downtime if green is healthy.
+
+`Docker` `NGINX` `Bash` `Python` `Health Checks` `Blue-Green Deploy`
+
+---
+
+### ⟶ [Communiatec — Real-Time Collaboration Platform](https://github.com/ketanayatti/communiatec-devops-platform)
+
+> *Not just a chat app. A full production system.*
+
+- Real-time messaging with WebSockets
+- Multi-user sessions with authentication
+- Deployed via **Docker + Jenkins + NGINX** — the whole pipeline
+
+`Node.js` `MongoDB` `Redis` `Docker` `Jenkins` `NGINX` `WebSockets`
+
+---
+
+### ⟶ [AI Mock Interview Platform](https://github.com/ketanayatti/ai-mock-interview)
+
+> *Backend-first AI tooling — sessions, evaluation, deployment.*
+
+- Generates structured interview flows
+- Tracks and persists sessions
+- Evaluates user responses with AI-backed scoring
+
+Built for the workflow, not just the interface.
+
+`Python` `FastAPI` `LLM Integration` `Session Management`
+
+---
+
+## `$ cat experience.txt`
+
+### IonIdea — Software Engineering Intern
+
+Worked across the full stack in a real product environment:
+
+- Built client-facing frontend modules
+- Set up and maintained **CI/CD pipelines with Jenkins**
+- Containerized services with **Docker**
+- Configured **Linux** environments and server infrastructure
+- Supported deployment debugging and release workflows
+- Currently building a full-stack system with **React + FastAPI**
+
+---
+
+## `$ cat stack.json`
+
+```json
+{
+  "backend":     ["Node.js", "Python", "FastAPI"],
+  "databases":   ["MongoDB", "Redis", "MySQL"],
+  "deployment":  ["Docker", "Jenkins", "NGINX", "Apache"],
+  "cloud":       ["AWS (EC2, project-based)"],
+  "systems":     ["Linux"],
+  "learning":    ["Kubernetes", "Terraform"]
+}
+```
+
+---
+
+## `$ cat github-stats.md`
+
+<div align="center">
+
+![Ketan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ketanayatti&show_icons=true&theme=github_dark&hide_border=true&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ketanayatti&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=ketanayatti&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)
+
+</div>
+
+---
+
+## `$ cat mindset.txt`
+
+Systems fail not because of bad logic —  
+but because of what happens **around** the logic.
+
+```
+What I think about most:
+  ├── Deployment pipelines that don't require babysitting
+  ├── Services that recover without a runbook
+  ├── Environments that behave the same everywhere
+  └── Reducing the gap between "it works" and "it runs in prod"
+```
+
+---
+
+<div align="center">
+
+```
+$ ./contact.sh
+──────────────────────────────────────
+  LinkedIn  →  linkedin.com/in/ketanayatti
+  Portfolio →  ketanayatti.netlify.app
+  Email     →  kethanayatti333@gmail.com
+──────────────────────────────────────
+  status: open to work
+  roles:  backend · systems · cloud · devops-adjacent
+──────────────────────────────────────
+```
+
+*Available for software engineering roles in backend, systems, and cloud infrastructure.*
+
+</div>
